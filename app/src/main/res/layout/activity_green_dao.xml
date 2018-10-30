@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zhwykj.greendaodemo.ui.GreenDaoActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_green_dao_build"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建数据库"/>
+    <Button
+        android:id="@+id/btn_green_dao_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加"/>
+    <Button
+        android:id="@+id/btn_green_dao_retrieve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询"/>
+    <Button
+        android:id="@+id/btn_green_dao_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更新"/>
+    <Button
+        android:id="@+id/btn_green_dao_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除"/>
+
+</LinearLayout>
